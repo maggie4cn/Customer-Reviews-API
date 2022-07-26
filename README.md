@@ -1,5 +1,5 @@
 # Customer Reviews API Introduction
-* Customer Reviews API is a REST API that supports the customer reviews section in product page in an ecommerce application. 
+* Customer Reviews API is a REST based API that supports the customer reviews section in a product page in ecommerce application. 
 * This API supports operation for writing and listing reviews and comments to relationational MySQL database and non-relational MongoDB database for products.
 * Built both Mongo DB and MySQL part of persistence layer for the REST API that supports writteing and listing customer reviews in an ecommerce application.
 
