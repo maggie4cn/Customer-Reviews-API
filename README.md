@@ -9,7 +9,7 @@
 * Define JPA Entities and relationships.
 * Define Spring Data JPA Repositories.
 * Define Spring Data Mongo Repositories.
-* Add tests for JPA Repositories using H2.
+* Add tests for JPA Repositories using MySQL.
 * Add tests for Mongo Repositories using Embedded Mongo.
 
 ### Reference Documentation
