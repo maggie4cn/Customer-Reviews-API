@@ -14,8 +14,6 @@ public class Product {
 
     @Column(name = "productName")
     private String productName;
-
-
     @OneToMany
     @JoinColumn(name = "productID")
     private List<Review> reviews = new ArrayList<>();
@@ -27,7 +25,6 @@ public class Product {
     public String getName(){ return productName; }
 
     public void setName(String name) { this.productName = name; }
-
 
     public List<Review> getReviews(){return reviews;}
 

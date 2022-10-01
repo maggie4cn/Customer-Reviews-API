@@ -21,9 +21,6 @@ public class ProductsController {
     private ProductRepository productRepository;
     /**
      * Creates a product.
-     *
-     * 1. Accept product as argument. Use {@link RequestBody} annotation.
-     * 2. Save product.
      */
     @RequestMapping(value = "/", method = RequestMethod.POST)
     @ResponseStatus(HttpStatus.CREATED)
@@ -34,7 +31,6 @@ public class ProductsController {
 
     /**
      * Finds a product by id.
-     *
      * @param id The id of the product.
      * @return The product if found, or a 404 not found.
      */
@@ -52,7 +48,6 @@ public class ProductsController {
 
     /**
      * Lists all products.
-     *
      * @return The list of products.
      */
     @RequestMapping(value = "/", method = RequestMethod.GET)
