@@ -31,12 +31,6 @@ public class ReviewsController {
 
     /**
      * Creates a review for a product.
-     * <p>
-     * 1. Add argument for review entity. Use {@link RequestBody} annotation.
-     * 2. Check for existence of product.
-     * 3. If product not found, return NOT_FOUND.
-     * 4. If found, save review.
-     *
      * @param productId The id of the product.
      * @return The created review or 404 if product id is not found.
      */
